@@ -1,0 +1,41 @@
+.upper{
+    height: 20vh;
+    display: flex;
+}
+.upper.child{
+    margin: 3px;
+    height: 19vh;
+    flex: 1;
+    background-color: rgb(189, 136, 126)
+}
+.lower{
+    height: 80vh;
+    display: flex;
+    flex: 1;
+}
+.right{
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    background-color: rgb(127, 123, 116);
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    width: 50%;
+    height: 83vh;
+
+}
+.left.child{
+    height: 20vh;
+    width: 58vh;
+    flex-direction: column;
+    margin: 3px;
+    background-color: rgb(142, 151, 107);
+}
+.right.child{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    background-color: yellow;
+}

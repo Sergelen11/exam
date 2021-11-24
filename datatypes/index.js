@@ -1,30 +1,37 @@
 const string = 'apple, banana, kiwi';
 
 // 1. Өгсөн string - ийн бүх үсгийг том болго: 'APPLE, BANANA, KIWI'
-// -- Энд кодоо бичнэ үү!
+let upper = string.toUpperCase();
+console.log(upper)
 
 // 2. Өгсөн string - ийг дараах хэлбэртэй болго: 'Apple; Banana; Kiwi'
-// -- Энд кодоо бичнэ үү!
+let newarr = []
+string.split(',').join()
+console.log(string)
+newarr.push(string)
+console.log(newarr)
 
 const array = ['d', 'e', 'c', 'a', 'b'];
 // 3. Өгсөн array - ыг үсгийн дарааллаар эрэмблэ.
-// -- Энд кодоо бичнэ үү!
+array.sort()
 
 // 4. Өгсөн array - ын голын 3н элемэнтийг салгаж аваад array1 - гэсэн хувьсагчид хийнэ.
 //    array болон array1 ийг хэвлэ.
-// -- Энд кодоо бичнэ үү!
-
+let array1 = []
+array1.push(array.splice(1,3))
+console.log(array)
+console.log(array1)
 // 5. Өгсөн array - ын эхний элемэнтийг устага
-// -- Энд кодоо бичнэ үү!
+array.shift()
 
 // 6. Өгсөн array - ын сүүлийн элемэнтийг устага
-// -- Энд кодоо бичнэ үү!
+array.pop()
 
 // 7. Өгсөн array - ын урд 'z' үсэг нэм
-// -- Энд кодоо бичнэ үү!
+array.unshift('z')
 
 // 8. Өгсөн array - ын ард 'j' үсэг нэм
-// -- Энд кодоо бичнэ үү!
+array.push('j')
 
 // 9. Өгсөн array - ыг JSON string болго.
 // -- Энд кодоо бичнэ үү!
